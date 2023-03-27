@@ -7,7 +7,14 @@ xv_quickjump 是 leap.nvim 的 vim 实现版本。支持 vim8.2+ 以上的版本
 
 - Windows 模式下，按下 `<tab>` 就可以开启 windows 的跳转模式，所有的 windows 都会出现一个label，按下label就可以跳转到指定的窗口。
 
-通过上述三个模式，可以极大的提高跳转效率。同时实现的 quickjump 跳转支持 omap，可以配合常见的 operator 使用，比如 `d` + `s`
+通过上述三个模式，可以极大的提高跳转效率。同时实现的 quickjump 跳转支持 omap，可以配合常见的 operator 使用，比如 `d` + `s`。
+
+如果label不够，那么可以按下 `<space>` 键来进行切换下一轮的，这样用户只需要盯着跳转位置即可，如果没有高亮，那么就无脑空格健即可。
+
+具体的展示 gif 图如下所示：
+
+![录屏](https://user-images.githubusercontent.com/16025309/227933403-64e4cccd-218e-4eaf-9c40-8e7a35627b41.gif)
+
 
 # 安装方式
 
